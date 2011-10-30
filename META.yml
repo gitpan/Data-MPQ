@@ -2,7 +2,8 @@
 abstract: 'Parser of MoPaQ archives'
 author:
   - 'cono <q@cono.org.ua>'
-build_requires: {}
+build_requires:
+  Test::MockObject: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -19,6 +20,6 @@ requires:
   Math::BigInt: 0
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=MPQ
-  homepage: https://github.com/cono/p5-mpq
-  repository: https://github.com/cono/p5-mpq.git
-version: 0.03
+  homepage: https://github.com/cono/p5-data-mpq
+  repository: https://github.com/cono/p5-data-mpq.git
+version: 0.04

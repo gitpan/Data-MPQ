@@ -26,6 +26,11 @@
             "IO::Uncompress::Bunzip2" : 0,
             "Math::BigInt" : 0
          }
+      },
+      "test" : {
+         "requires" : {
+            "Test::MockObject" : 0
+         }
       }
    },
    "release_status" : "stable",
@@ -33,13 +38,13 @@
       "bugtracker" : {
          "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=MPQ"
       },
-      "homepage" : "https://github.com/cono/p5-mpq",
+      "homepage" : "https://github.com/cono/p5-data-mpq",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/cono/p5-mpq.git",
-         "web" : "https://github.com/cono/p5-mpq"
+         "url" : "https://github.com/cono/p5-data-mpq.git",
+         "web" : "https://github.com/cono/p5-data-mpq"
       }
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }
 
